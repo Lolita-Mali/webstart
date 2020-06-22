@@ -337,3 +337,45 @@ img {
 
 .animate__fadeInUp.card6 {
   animation-delay: 0.6s; }
+
+.brif-block {
+  display: flex; }
+
+.brif__interview {
+  flex-basis: 50%; }
+
+.brif__form {
+  flex-basis: 50%; }
+
+.interview {
+  padding-right: 70px; }
+  .interview__title {
+    margin-bottom: 50px;
+    font-size: 22px;
+    font-family: 'Museo Sans Bold', sans-serif;
+    font-weight: 700; }
+  .interview__subtitle {
+    display: block;
+    margin-bottom: 95px;
+    font-size: 16px; }
+  .interview-list {
+    list-style: none;
+    padding: 0; }
+    .interview-list__item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 25px;
+      font-family: 'Museo Sans Bold', sans-serif;
+      font-weight: 700; }
+    .interview-list__counter {
+      display: inline-block;
+      text-align: center;
+      font-size: 14px;
+      line-height: 35px;
+      width: 35px;
+      height: 35px;
+      border: 2px solid #333333;
+      margin-right: 30px;
+      border-radius: 50%; }
+    .interview-list__text {
+      max-width: 400px; }
